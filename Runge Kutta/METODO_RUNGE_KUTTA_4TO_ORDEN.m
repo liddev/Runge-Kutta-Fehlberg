@@ -1,7 +1,3 @@
-
-#######  UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS   #######
-#######     METODO DE RUNGE KUTTA DE 4TO ORDEN      #######
-#######        PROBLEMA DEL VALOR INICIAL           #######
 ## (x*(e^(3*x)))-(2*y) / y(0)=0 / h=0.1 / 0<x<1
 
 
@@ -14,7 +10,7 @@ function [A]=RungeKutta_Orden4;
 
   a=input('Ingrese el inicio del intervalo: ');
   b=input('Ingrese el final del intervalo: ');
-  h=input('Ingrese el tamaño de paso: ');
+  h=input('Ingrese el tamaÃ±o de paso: ');
   f=inline(funcion);
 
  
