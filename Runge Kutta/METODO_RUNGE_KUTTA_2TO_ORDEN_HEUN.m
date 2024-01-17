@@ -1,9 +1,3 @@
-#######  UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS   #######
-#######     METODO DE RUNGE KUTTA DE 2DO ORDEN      #######
-#######        PROBLEMA DEL VALOR INICIAL           #######
-
-
-
 
 function [A]=RungeKutta_Orden2;
   fprintf('\n');
@@ -14,7 +8,7 @@ function [A]=RungeKutta_Orden2;
 
   a=input('Ingrese el inicio del intervalo: ');
   b=input('Ingrese el final del intervalo: ');
-  h=input('Ingrese el tamaño de paso: ');
+  h=input('Ingrese el tamaÃ±o de paso: ');
   f=inline(funcion);
 
   
